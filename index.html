@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f7ff"><title>ことばのたね｜英単語</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#home" aria-label="ホーム"><span class="brand-mark">A</span><span>ことばのたね<small>ENGLISH WORDS</small></span></a><button id="settingsShortcut" class="icon-btn" aria-label="設定">⚙</button></header>
+  <main id="app" class="shell" aria-live="polite"></main>
+  <nav class="tabbar" aria-label="メインメニュー">
+    <button data-page="home" class="tab active"><span>⌂</span>ホーム</button><button data-page="review" class="tab"><span>↻</span>復習</button><button data-page="calendar" class="tab"><span>▦</span>カレンダー</button><button data-page="stats" class="tab"><span>▤</span>成績</button><button data-page="settings" class="tab"><span>⚙</span>設定</button>
+  </nav>
+  <input id="restoreFile" type="file" accept="application/json,.json" hidden>
+  <script src="app.js"></script>
+</body></html>
